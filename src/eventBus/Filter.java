@@ -1,5 +1,6 @@
 package eventBus;
 
-public class Filter {
+public abstract class Filter {
 
+	public abstract boolean Apply(Event event);
 }

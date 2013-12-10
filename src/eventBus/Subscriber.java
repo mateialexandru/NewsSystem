@@ -1,6 +1,6 @@
 package eventBus;
 
-public class Subscriber {
+public abstract class Subscriber {
 
-	
+	public abstract void inform(Event event);
 }
